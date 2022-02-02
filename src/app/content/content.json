@@ -1,0 +1,48 @@
+{
+  "experience": [
+    {
+      "company": "Vanguard",
+      "title": "Software Developer",
+      "startDate": "2022-01-01",
+      "highLights": [
+        "Maintaining and improving the existing REST services that handle financial recommendations. Tasks include:",
+        "Supporting API consumers with technical and business questions",
+        "Designing and developing new features based on the stakeholders requirements",
+        "Translating requirements from stakeholders to technical design and specifications",
+        "Communicating progress and timeline of features to stakeholders",
+        "Coaching junior developers on programming designs and practices"
+      ]
+    },
+    {
+      "company": "Vanguard",
+      "title": "Software Developer",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "highLights": [
+        "Responsible for the design, architect and development of client facing web applications. Responsibilities include:",
+        "Front-end development using Angular + TypeScript",
+        "REST webservice using Java + SpringBoot",
+        "Creating and maintaining PostGresSQL database"
+      ]
+    },
+    {
+      "company": "Vangasdasdauard",
+      "title": "Software asdasdasd",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "highLights": [
+        "Responsible for the design, architect and development of client facing web applications. Responsibilities include:",
+        "Front-end asdasd using Angular + TypeScript",
+        "REST webservice using Java + SpringBoot",
+        "Creating and maintaining PostGresSQL database"
+      ]
+    }
+
+  ],
+  "skills": [
+    "Java",
+    "SpringBoot",
+    "Angular",
+    "AWS"
+  ]
+}

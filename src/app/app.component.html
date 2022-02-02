@@ -1,0 +1,14 @@
+<div class="min-h-screen bg-gray-200">
+  <div class="p-8 lg:mx-auto lg:max-w-5xl">
+    <header></header>
+    <resume-summary></resume-summary>
+    <div class="pb-8">
+      <h3 class="text-center text-1xl font-bold pb-5">Experience</h3>
+      <div *ngFor="let experience of experienceData">
+        <experience [workExperience] = "experience" ></experience>
+      </div>
+    </div>
+    <skills [skills] = "skillsData"></skills>
+    <!-- <education></education> -->
+  </div>
+</div>
