@@ -37,12 +37,19 @@
         "Creating and maintaining PostGresSQL database"
       ]
     }
-
   ],
   "skills": [
     "Java",
     "SpringBoot",
     "Angular",
     "AWS"
+  ],
+  "education": [
+    {
+      "school": "Applachian University",
+      "major": "Computer Science",
+      "degree": "BS",
+      "graduationDate": "2016-05-01"
+    }
   ]
 }

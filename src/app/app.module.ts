@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { ResumeSummaryComponent } from './resume-summary/resume-summary.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
+import { EducationComponent } from './education/education.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { SkillsComponent } from './skills/skills.component';
     ResumeSummaryComponent,
     ExperienceComponent,
     SkillsComponent,
+    EducationComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

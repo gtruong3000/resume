@@ -1,14 +1,21 @@
 <div class="min-h-screen bg-gray-200">
   <div class="p-8 lg:mx-auto lg:max-w-5xl">
     <header></header>
-    <resume-summary></resume-summary>
-    <div class="pb-8">
-      <h3 class="text-center text-1xl font-bold pb-5">Experience</h3>
-      <div *ngFor="let experience of experienceData">
-        <experience [workExperience] = "experience" ></experience>
+    <div class="ResumeContent flex flex-col lg:flex-row lg:space-x-16">
+      <div class="ResumeLeft lg:w-3/5">
+        <resume-summary></resume-summary>
+        <div class="pb-8">
+          <h3 class="text-center text-4xl font-bold pb-6">Experience</h3>
+          <div *ngFor="let experience of experienceData">
+            <experience [workExperience] = "experience" ></experience>
+          </div>
+        </div>
+      </div>
+      <div class="ResumeRight lg:w-2/5">
+        <contact></contact>
+        <skills [skills] = "skillsData"></skills>
+        <education [education]="educationData"></education>
       </div>
     </div>
-    <skills [skills] = "skillsData"></skills>
-    <!-- <education></education> -->
   </div>
 </div>

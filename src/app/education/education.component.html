@@ -1,0 +1,8 @@
+<div>
+  <h3 class="text-center text-4xl font-bold pb-6">Education</h3>
+  <div *ngFor="let edu of education">
+    <p class="text-2xl font-bold">{{ edu.school }}</p>
+    <p>{{ edu.major }} - {{ edu.degree }}</p>
+    <p>{{ edu.graduationDate | date }}</p>
+  </div>
+</div>

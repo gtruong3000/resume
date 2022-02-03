@@ -11,4 +11,5 @@ export class AppComponent {
   title = 'resume';
   experienceData = resumeJson.experience;
   skillsData = resumeJson.skills;
+  educationData = resumeJson.education;
 }
