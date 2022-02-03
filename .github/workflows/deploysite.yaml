@@ -23,7 +23,7 @@ jobs:
         run: npm run build-prod
 
       - name: Deploy to GitHub Pages
-        use: JamesIves/github-pages-deploy-action@v4.2.3
+        uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
