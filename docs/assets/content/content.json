@@ -1,0 +1,55 @@
+{
+  "bio": {
+    "avatar": "https://www.gravatar.com/avatar/ec392126f32602b864cb001ca63e6444?size=300"
+  },
+  "experience": [
+    {
+      "company": "Vanguard",
+      "title": "Software Developer III",
+      "startDate": "2021-08-01",
+      "highLights": [
+        "Maintaining and improving the existing REST services that handle financial recommendations.",
+        "Supporting API consumers with technical and business questions.",
+        "Designing and developing new features based on the stakeholders requirements.",
+        "Translating requirements from stakeholders to technical designs and specifications.",
+        "Communicating progress and timeline of features to stakeholders.",
+        "Coaching junior developers on programming designs and practices."
+      ]
+    },
+    {
+      "company": "Vanguard",
+      "title": "Software Developer II",
+      "startDate": "2018-07-01",
+      "endDate": "2021-08-01",
+      "highLights": [
+        "Responsible for the design, architect and development of client facing web applications.",
+        "Front-end development using Angular + TypeScript.",
+        "REST webservice using Java + SpringBoot.",
+        "Creating and maintaining PostGresSQL database"
+      ]
+    },
+    {
+      "company": "Vanguard",
+      "title": "Software Developer I",
+      "startDate": "2016-09-01",
+      "endDate": "2018-07-01",
+      "highLights": [
+        "Rotational program that I spent 18 months with three different teams within the enterprise."
+      ]
+    }
+  ],
+  "skills": [
+    "Java",
+    "SpringBoot",
+    "Angular",
+    "AWS"
+  ],
+  "education": [
+    {
+      "school": "Applachian University",
+      "major": "Computer Science",
+      "degree": "BS",
+      "graduationDate": "2016-05-01"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import resumeJson from './content/content.json';
+import resumeJson from '../assets/content/content.json';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,7 @@ import resumeJson from './content/content.json';
 
 export class AppComponent {
   title = 'resume';
+  bioData = resumeJson.bio;
   experienceData = resumeJson.experience;
   skillsData = resumeJson.skills;
   educationData = resumeJson.education;
