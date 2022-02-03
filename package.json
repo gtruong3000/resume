@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --prod",
-    "deploy": "ng deploy --base-href=https://github.com/gtruong3000/resume.git",
+    "deploy": "ng deploy --base-href=https://github.com/gtruong3000/resume",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run resume:serve-ssr",
