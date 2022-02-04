@@ -1,0 +1,5 @@
+<button mat-fab [disabled]="!isActive" (click)="handleClick()" 
+      class="bg-blue-500 !fixed bottom-8 right-8 transition-opacity shadow-lg"
+      [ngClass]="isActive ? 'opacity-100' : 'opacity-0'">
+  <img src="../../assets/icons/up-arrow-svgrepo-com.svg" class="w-6 h-6">
+</button>
