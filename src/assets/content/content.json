@@ -1,6 +1,6 @@
 {
   "bio": {
-    "avatar": "https://www.gravatar.com/avatar/ec392126f32602b864cb001ca63e6444?size=300"
+    "avatar": "https://gravatar.com/avatar/ec392126f32602b864cb001ca63e6444?size=256"
   },
   "experience": [
     {
@@ -8,10 +8,12 @@
       "title": "Software Developer III",
       "startDate": "2021-08-01",
       "highLights": [
-        "Maintaining and improving the existing REST services that handle financial recommendations.",
-        "Supporting API consumers with technical and business questions.",
+        "Maintaining and improving event driven batch applications that handle financial recommendations. Tasks include:",
+        "Supporting consumers with technical and business questions.",
+        "Monitor and fine-tuning AWS resources to handle the workload and cost saving.",
         "Designing and developing new features based on the stakeholders requirements.",
-        "Translating requirements from stakeholders to technical designs and specifications.",
+        "Leading the process improvement initives that give clients the ability to self-serve.",
+        "Translating requirements from stakeholders to technical design and specifications.",
         "Communicating progress and timeline of features to stakeholders.",
         "Coaching junior developers on programming designs and practices."
       ]
